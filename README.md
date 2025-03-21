@@ -38,10 +38,6 @@ A Chrome extension that tracks the last 5 opened problems from LeetCode and Code
 2. The problem will be stored in the extension.
 3. Click the extension icon to view your last 5 visited problems.
 
-## Contributing
-Feel free to submit issues and pull requests to improve the extension!
 
-## License
-This project is licensed under the MIT License.
 
 
