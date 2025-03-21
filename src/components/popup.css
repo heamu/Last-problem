@@ -1,0 +1,132 @@
+/* Popup Container */
+.popup-container {
+    width: 320px;
+    padding: 15px;
+    background: #1e1e2f;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title Styling */
+  .popup-title {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 2px solid #ffcc00;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Problems List */
+  .problems-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Each Problem Item */
+  .problem-item {
+    display: flex;
+    align-items: center;
+    background: #292940;
+    padding: 6px;
+    margin: 6px 0;
+    border-radius: 6px;
+    transition: transform 0.2s, background 0.2s;
+  }
+  
+  .problem-item:hover {
+    background: #40405c;
+    transform: translateY(-2px);
+  }
+  
+  /* Small Square Problem Icons */
+  .problem-icon {
+    width: 16px;  /* Small size */
+    height: 16px;
+    margin-right: 8px;
+    object-fit: contain;  /* Keeps the image aspect ratio */
+  }
+  
+  /* Problem Links */
+  .problem-link {
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .problem-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* No Problems Message */
+  .no-problems {
+    font-style: italic;
+    color: #cccccc;
+  }
+  
+  /* Make the entire item clickable */
+.full-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 6px;
+    text-decoration: none; /* Remove underline */
+    color: #ffcc00;
+    background: #292940;
+    border-radius: 6px;
+    transition: background 0.2s, transform 0.2s;
+  }
+  
+  /* Remove underline on hover and active state */
+  .full-item:hover,
+  .full-item:active,
+  .full-item:focus {
+    text-decoration: none; /* Ensure no underline appears */
+    background: #40405c;
+    transform: translateY(-2px);
+  }
+  
+  /* Keep the problem icons properly aligned */
+  .problem-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    object-fit: contain;
+  }
+  
+
+  /* Tabs Styling */
+.toggle-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #1e1e2f;
+    border-radius: 6px;
+}
+
+.toggle-btn {
+    flex: 1;
+    padding: 10px;
+    background: #292940;
+    color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.toggle-btn.active {
+    background: #ffcc00;
+    color: #292940;
+    font-weight: bold;
+}
+
+
+
+  
+
+  /* Remove white border around the popup */

@@ -1,3 +1,4 @@
+
 # Last Problem Browser Extension
 
 A Chrome extension that tracks the last 5 opened problems from LeetCode and Codeforces, helping you revisit recent challenges easily.
