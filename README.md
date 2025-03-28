@@ -39,7 +39,7 @@ A Chrome extension that tracks the last 5 opened problems from LeetCode and Code
 2. The problem will be stored in the extension.
 3. Click the extension icon to view your last 5 visited problems.
 
-##Images
+## Images
 ![image](https://github.com/user-attachments/assets/9502c997-f31c-4427-9cb6-017bfdaa2a48)
 
 
