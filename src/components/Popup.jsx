@@ -12,6 +12,8 @@ function Popup() {
     chrome.storage.local.get(["leetcodeProblems", "codeforcesProblems"], (result) => {
       setLeetcodeProblems(result.leetcodeProblems || []);
       setCodeforcesProblems(result.codeforcesProblems || []);
+      //console.log(result);
+      //console.log("Codeforces Problems:", result.codeforcesProblems);
     });
   }, []);
 
@@ -59,7 +61,7 @@ function Popup() {
                 <li key={index} className="problem-item">
                   <a href={problem.url} target="_blank" rel="noopener noreferrer" className="problem-link full-item">
                     <img src={codeforcesIcon} alt="Codeforces Icon" className="problem-icon" />
-                    {problem.name || `Problem ${String(index + 1).padStart(2, "0")}`} {/* Fallback for CF */}
+                    {problem.name} {/* Now displays "2091-B" instead of a generic name */}
                   </a>
                 </li>
               ))
